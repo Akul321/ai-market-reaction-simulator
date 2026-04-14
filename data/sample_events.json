@@ -1,0 +1,17 @@
+[
+  {
+    "ticker": "AAPL",
+    "headline": "Apple beats earnings expectations but warns of softer iPhone demand in China",
+    "article": "Apple reported quarterly revenue above analyst expectations and raised services growth commentary, but management warned that iPhone demand in China may remain soft over the next quarter."
+  },
+  {
+    "ticker": "TSLA",
+    "headline": "Tesla announces surprise price cuts amid slowing EV demand",
+    "article": "Tesla lowered prices across several major markets in an effort to defend market share as electric vehicle demand weakened and competition intensified."
+  },
+  {
+    "ticker": "NVDA",
+    "headline": "NVIDIA secures large sovereign AI infrastructure contract and raises revenue outlook",
+    "article": "The company signed a multi-year AI infrastructure deal and lifted forward revenue guidance, reinforcing confidence in data center demand and sovereign AI expansion."
+  }
+]

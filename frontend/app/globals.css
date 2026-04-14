@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(122, 162, 255, 0.12), transparent 35%),
+    radial-gradient(circle at top right, rgba(102, 227, 196, 0.1), transparent 30%),
+    #0a1020;
+  color: #edf2ff;
+}
+
+.card {
+  @apply rounded-2xl border border-white/10 bg-panel/80 backdrop-blur shadow-glow;
+}
+
+.metric-label {
+  @apply text-xs uppercase tracking-[0.18em] text-white/50;
+}
+
+.metric-value {
+  @apply mt-2 text-2xl font-semibold text-white;
+}
