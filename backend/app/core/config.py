@@ -1,7 +1,7 @@
 from functools import lru_cache
 from typing import List
 
-from pydantic_settings import BaseSettings, SettingsConfigDict
+from pydantic import BaseSettings
 
 
 class Settings(BaseSettings):
@@ -13,7 +13,7 @@ class Settings(BaseSettings):
     yfinance_period: str = "1mo"
     yfinance_interval: str = "1d"
 
-    model_config = SettingsConfigDict(env_file=".env", extra="ignore")
+   
 
 
 @lru_cache
